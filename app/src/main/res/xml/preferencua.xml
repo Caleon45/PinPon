@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Preferencia para seleccionar color de fondo -->
+    <ListPreference
+        android:key="background_color"
+        android:title="Color de fondo"
+        android:summary="Selecciona un color de fondo"
+        android:entries="@array/color_names"
+        android:entryValues="@array/color_values"
+        android:defaultValue="azul"
+        android:singleLineTitle="true" />
+
+</PreferenceScreen>
